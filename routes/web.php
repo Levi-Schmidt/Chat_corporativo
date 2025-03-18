@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
-    return view('index');
+    return view('login');
 });
 
 // Rota para verificar se as tabelas foram criadas
